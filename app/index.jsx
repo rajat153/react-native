@@ -5,9 +5,9 @@ import '../global.css';
 export default function App(){
     return(
         <View className = "flex-1 items-center justify-center bg-white">
-            <Text className = "text-2xl" >Arizona5 !!</Text>
+            <Text className = "text-2xl font-pblack">Arizona5 !!</Text>
             <StatusBar style = "auto" />
-            <Link href = "/profile" style = {{color : 'red'}}>Go to Profile Page</Link>
+            <Link href = "/home" style = {{color : 'green'}}>Go to Home</Link>
         </View>
     )
 }
